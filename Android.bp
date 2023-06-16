@@ -19,7 +19,7 @@ android_app {
     static_libs: [
         "androidx.core_core",
         "androidx.preference_preference",
-        "particles",
+        "leonidslib",
     ],
     resource_dirs: ["res"],
     optimize: {
@@ -28,7 +28,7 @@ android_app {
 }
 
 java_import {
-    name: "particles",
+    name: "leonidslib",
     jars: [
         "libs/LeonidsLib.jar",
     ],
